@@ -37,12 +37,12 @@ export const Account_Plans: Plans[] = [
   },
   {
     // pro
-    ai_generate_day: 1000,
-    ai_generate_chars: 1000,
-    ai_bot_history_length: 100,
+    ai_generate_day: 100000,
+    ai_generate_chars: 100000,
+    ai_bot_history_length: 1000,
     note_upload_count: 10000,
-    image_upload_size: 10,
-    space_user_count: 10,
+    image_upload_size: 100,
+    space_user_count: 100,
     pay: 0,
   },
   {
