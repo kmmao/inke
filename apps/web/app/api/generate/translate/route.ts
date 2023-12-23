@@ -63,7 +63,7 @@ export async function POST(req: Request): Promise<Response> {
     openai.apiKey = getRandomElement(api_keys.split(",")) || api_key;
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4",
+      model: "gpt-3.5-turbo-16k",
       messages: [
         {
           role: "system",
